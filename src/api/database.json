@@ -1,0 +1,450 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Ana García",
+      "contraseña": "password123",
+      "correo": "ana.garcia@email.com",
+      "id": "U0000001",
+      "rol": "admin"
+    },
+    {
+      "nombre": "Luis Pérez",
+      "contraseña": "securepass",
+      "correo": "luis.perez@email.com",
+      "id": "U0000002",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "María López",
+      "contraseña": "mi-clave-secreta",
+      "correo": "maria.lopez@email.com",
+      "id": "U0000003",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Javier Ruiz",
+      "contraseña": "clave456",
+      "correo": "javier.ruiz@email.com",
+      "id": "U0000004",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Sofía Torres",
+      "contraseña": "sofia_admin",
+      "correo": "sofia.torres@email.com",
+      "id": "U0000005",
+      "rol": "admin"
+    },
+    {
+      "nombre": "Carlos Vega",
+      "contraseña": "carlos_pass",
+      "correo": "carlos.vega@email.com",
+      "id": "U0000006",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Elena Castro",
+      "contraseña": "elena1234",
+      "correo": "elena.castro@email.com",
+      "id": "U0000007",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "David Moro",
+      "contraseña": "david_safe",
+      "correo": "david.moro@email.com",
+      "id": "U0000008",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Laura Gil",
+      "contraseña": "laura-pass",
+      "correo": "laura.gil@email.com",
+      "id": "U0000009",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Pedro Sanz",
+      "contraseña": "pedro_admin_key",
+      "correo": "pedro.sanz@email.com",
+      "id": "U0000010",
+      "rol": "admin"
+    },
+    {
+      "nombre": "Sara Vidal",
+      "contraseña": "sara_user",
+      "correo": "sara.vidal@email.com",
+      "id": "U0000011",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Miguel Ochoa",
+      "contraseña": "miguel_pass",
+      "correo": "miguel.ochoa@email.com",
+      "id": "U0000012",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Lucía Rey",
+      "contraseña": "lucia_secure",
+      "correo": "lucia.rey@email.com",
+      "id": "U0000013",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Héctor Cánovas",
+      "contraseña": "hector_key",
+      "correo": "hector.canovas@email.com",
+      "id": "U0000014",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Andrea Simón",
+      "contraseña": "andrea_pass",
+      "correo": "andrea.simon@email.com",
+      "id": "U0000015",
+      "rol": "candidato"
+    }
+  ],
+  "vacantes": [
+    {
+      "id": "VACTEC01",
+      "descripción": "Desarrollo y mantenimiento de aplicaciones web con React y Node.js.",
+      "salario": 55000,
+      "fecha máxima de postulación": "2025-11-30",
+      "fecha de publicación": "2025-10-15",
+      "puesto o cargo": "Desarrollador Full Stack Jr.",
+      "requisitos de aplicación": "Experiencia de 1 año en React, conocimiento de bases de datos NoSQL."
+    },
+    {
+      "id": "VACMAR02",
+      "descripción": "Creación y gestión de campañas de marketing digital (SEO/SEM, redes sociales).",
+      "salario": 40000,
+      "fecha máxima de postulación": "2025-12-15",
+      "fecha de publicación": "2025-10-20",
+      "puesto o cargo": "Especialista en Marketing Digital",
+      "requisitos de aplicación": "Título en Marketing, 3 años de experiencia comprobable."
+    },
+    {
+      "id": "VACFIN03",
+      "descripción": "Análisis de estados financieros y elaboración de presupuestos.",
+      "salario": 60000,
+      "fecha máxima de postulación": "2025-12-05",
+      "fecha de publicación": "2025-10-21",
+      "puesto o cargo": "Analista Financiero Senior",
+      "requisitos de aplicación": "CPA o título similar, 5 años de experiencia, manejo de SAP."
+    },
+    {
+      "id": "VACRHH04",
+      "descripción": "Proceso completo de reclutamiento y selección de personal.",
+      "salario": 45000,
+      "fecha máxima de postulación": "2025-11-25",
+      "fecha de publicación": "2025-10-10",
+      "puesto o cargo": "Generalista de RR.HH.",
+      "requisitos de aplicación": "Licenciatura en Psicología/RR.HH., 2 años de experiencia."
+    },
+    {
+      "id": "VACDIS05",
+      "descripción": "Diseño de interfaces de usuario para aplicaciones móviles y web.",
+      "salario": 50000,
+      "fecha máxima de postulación": "2025-12-20",
+      "fecha de publicación": "2025-10-21",
+      "puesto o cargo": "Diseñador UX/UI",
+      "requisitos de aplicación": "Portafolio de trabajo, dominio de Figma/Sketch."
+    },
+    {
+      "id": "VACLIS06",
+      "descripción": "Gestión de proyectos de implementación de sistemas ERP.",
+      "salario": 70000,
+      "fecha máxima de postulación": "2025-11-10",
+      "fecha de publicación": "2025-10-01",
+      "puesto o cargo": "Líder de Proyectos TI",
+      "requisitos de aplicación": "Certificación PMP, 7 años de experiencia."
+    },
+    {
+      "id": "VACTEC07",
+      "descripción": "Administración de bases de datos SQL Server y optimización de consultas.",
+      "salario": 65000,
+      "fecha máxima de postulación": "2025-12-01",
+      "fecha de publicación": "2025-10-18",
+      "puesto o cargo": "Administrador de BBDD",
+      "requisitos de aplicación": "Experiencia con T-SQL, 4 años en puesto similar."
+    },
+    {
+      "id": "VACCOM08",
+      "descripción": "Atención a clientes y gestión de pedidos internacionales.",
+      "salario": 35000,
+      "fecha máxima de postulación": "2025-11-15",
+      "fecha de publicación": "2025-10-05",
+      "puesto o cargo": "Ejecutivo de Ventas Jr.",
+      "requisitos de aplicación": "Inglés avanzado (C1), habilidades de comunicación."
+    },
+    {
+      "id": "VACTEC09",
+      "descripción": "Mantenimiento y soporte de infraestructura de red y servidores.",
+      "salario": 48000,
+      "fecha máxima de postulación": "2025-12-10",
+      "fecha de publicación": "2025-10-22",
+      "puesto o cargo": "Técnico de Soporte TI",
+      "requisitos de aplicación": "Certificación CCNA, manejo de Windows Server."
+    },
+    {
+      "id": "VACLEG10",
+      "descripción": "Asesoría legal en materia corporativa y contractual.",
+      "salario": 75000,
+      "fecha máxima de postulación": "2025-12-30",
+      "fecha de publicación": "2025-10-08",
+      "puesto o cargo": "Abogado Corporativo",
+      "requisitos de aplicación": "Título de Abogado, especialización en Derecho Corporativo, colegiado."
+    },
+    {
+      "id": "VACTEC11",
+      "descripción": "Programación en Python para análisis de datos y machine learning.",
+      "salario": 62000,
+      "fecha máxima de postulación": "2025-11-28",
+      "fecha de publicación": "2025-10-12",
+      "puesto o cargo": "Científico de Datos",
+      "requisitos de aplicación": "Máster en Data Science, experiencia con librerías como Pandas, Scikit-learn."
+    },
+    {
+      "id": "VACLIS12",
+      "descripción": "Supervisión de operaciones de almacén y logística de distribución.",
+      "salario": 58000,
+      "fecha máxima de postulación": "2025-12-08",
+      "fecha de publicación": "2025-10-23",
+      "puesto o cargo": "Gerente de Logística",
+      "requisitos de aplicación": "Experiencia previa en gestión de equipos, optimización de rutas."
+    },
+    {
+      "id": "VACMAR13",
+      "descripción": "Creación de contenido audiovisual para plataformas digitales (video, animación).",
+      "salario": 42000,
+      "fecha máxima de postulación": "2025-11-17",
+      "fecha de publicación": "2025-10-03",
+      "puesto o cargo": "Content Creator",
+      "requisitos de aplicación": "Dominio de Adobe Premiere y After Effects, creatividad."
+    },
+    {
+      "id": "VACRHH14",
+      "descripción": "Diseño e implementación de programas de capacitación y desarrollo.",
+      "salario": 51000,
+      "fecha máxima de postulación": "2025-12-02",
+      "fecha de publicación": "2025-10-19",
+      "puesto o cargo": "Especialista en Capacitación",
+      "requisitos de aplicación": "Experiencia en metodologías de aprendizaje (e-learning)."
+    },
+    {
+      "id": "VACFIN15",
+      "descripción": "Manejo de cuentas por pagar y cuentas por cobrar, conciliaciones bancarias.",
+      "salario": 38000,
+      "fecha máxima de postulación": "2025-11-20",
+      "fecha de publicación": "2025-10-07",
+      "puesto o cargo": "Auxiliar Contable",
+      "requisitos de aplicación": "Estudiante avanzado de Contaduría, manejo de Excel intermedio."
+    },
+    {
+      "id": "VACTEC16",
+      "descripción": "Pruebas de software y aseguramiento de calidad (QA).",
+      "salario": 53000,
+      "fecha máxima de postulación": "2025-12-07",
+      "fecha de publicación": "2025-10-24",
+      "puesto o cargo": "QA Tester",
+      "requisitos de aplicación": "Conocimiento de metodologías Agile (Scrum), experiencia con Jira."
+    },
+    {
+      "id": "VACCOM17",
+      "descripción": "Gestión de la relación con clientes clave (Key Account Management).",
+      "salario": 80000,
+      "fecha máxima de postulación": "2025-11-18",
+      "fecha de publicación": "2025-10-04",
+      "puesto o cargo": "Key Account Manager",
+      "requisitos de aplicación": "5 años de experiencia en ventas B2B, orientado a resultados."
+    },
+    {
+      "id": "VACTEC18",
+      "descripción": "Diseño y desarrollo de APIs RESTful con Java Spring Boot.",
+      "salario": 68000,
+      "fecha máxima de postulación": "2025-12-12",
+      "fecha de publicación": "2025-10-25",
+      "puesto o cargo": "Desarrollador Backend Senior",
+      "requisitos de aplicación": "Dominio de Java 11+, experiencia con microservicios."
+    },
+    {
+      "id": "VACIND19",
+      "descripción": "Supervisión de procesos de producción y control de calidad en planta.",
+      "salario": 56000,
+      "fecha máxima de postulación": "2025-11-22",
+      "fecha de publicación": "2025-10-09",
+      "puesto o cargo": "Ingeniero de Procesos",
+      "requisitos de aplicación": "Título en Ingeniería Industrial/Mecánica, experiencia en manufactura."
+    },
+    {
+      "id": "VACDIS20",
+      "descripción": "Conceptualización y diseño de campañas publicitarias impresas y digitales.",
+      "salario": 47000,
+      "fecha máxima de postulación": "2025-12-04",
+      "fecha de publicación": "2025-10-26",
+      "puesto o cargo": "Director de Arte Jr.",
+      "requisitos de aplicación": "Dominio de Suite Adobe, creatividad y atención al detalle."
+    }
+  ],
+  "postulaciones": [
+    { "ide del postulante": "U0000002", "id de la vacante": "VACTEC01", "estado": "inscrito" },
+    { "ide del postulante": "U0000003", "id de la vacante": "VACTEC01", "estado": "contratado" },
+    { "ide del postulante": "U0000004", "id de la vacante": "VACMAR02", "estado": "inscrito" },
+    { "ide del postulante": "U0000006", "id de la vacante": "VACFIN03", "estado": "descartado" },
+    { "ide del postulante": "U0000007", "id de la vacante": "VACRHH04", "estado": "inscrito" },
+    { "ide del postulante": "U0000008", "id de la vacante": "VACDIS05", "estado": "inscrito" },
+    { "ide del postulante": "U0000009", "id de la vacante": "VACLIS06", "estado": "inscrito" },
+    { "ide del postulante": "U0000011", "id de la vacante": "VACTEC07", "estado": "contratado" },
+    { "ide del postulante": "U0000012", "id de la vacante": "VACCOM08", "estado": "descartado" },
+    { "ide del postulante": "U0000013", "id de la vacante": "VACTEC09", "estado": "inscrito" },
+    { "ide del postulante": "U0000014", "id de la vacante": "VACLEG10", "estado": "inscrito" },
+    { "ide del postulante": "U0000015", "id de la vacante": "VACTEC11", "estado": "inscrito" },
+    { "ide del postulante": "U0000002", "id de la vacante": "VACTEC16", "estado": "inscrito" },
+    { "ide del postulante": "U0000003", "id de la vacante": "VACDIS05", "estado": "descartado" },
+    { "ide del postulante": "U0000004", "id de la vacante": "VACTEC01", "estado": "inscrito" },
+    { "ide del postulante": "U0000006", "id de la vacante": "VACMAR02", "estado": "inscrito" },
+    { "ide del postulante": "U0000007", "id de la vacante": "VACTEC07", "estado": "inscrito" },
+    { "ide del postulante": "U0000008", "id de la vacante": "VACTEC11", "estado": "contratado" },
+    { "ide del postulante": "U0000009", "id de la vacante": "VACRHH04", "estado": "inscrito" },
+    { "ide del postulante": "U0000011", "id de la vacante": "VACFIN03", "estado": "descartado" },
+    { "ide del postulante": "U0000012", "id de la vacante": "VACTEC01", "estado": "inscrito" },
+    { "ide del postulante": "U0000013", "id de la vacante": "VACCOM08", "estado": "inscrito" },
+    { "ide del postulante": "U0000014", "id de la vacante": "VACTEC09", "estado": "descartado" },
+    { "ide del postulante": "U0000015", "id de la vacante": "VACRHH14", "estado": "inscrito" },
+    { "ide del postulante": "U0000002", "id de la vacante": "VACFIN03", "estado": "descartado" },
+    { "ide del postulante": "U0000003", "id de la vacante": "VACTEC18", "estado": "inscrito" },
+    { "ide del postulante": "U0000004", "id de la vacante": "VACDIS20", "estado": "inscrito" },
+    { "ide del postulante": "U0000006", "id de la vacante": "VACIND19", "estado": "inscrito" },
+    { "ide del postulante": "U0000007", "id de la vacante": "VACLIS12", "estado": "descartado" },
+    { "ide del postulante": "U0000008", "id de la vacante": "VACMAR13", "estado": "inscrito" },
+    { "ide del postulante": "U0000009", "id de la vacante": "VACFIN15", "estado": "inscrito" },
+    { "ide del postulante": "U0000011", "id de la vacante": "VACCOM17", "estado": "inscrito" },
+    { "ide del postulante": "U0000012", "id de la vacante": "VACTEC18", "estado": "descartado" },
+    { "ide del postulante": "U0000013", "id de la vacante": "VACIND19", "estado": "contratado" },
+    { "ide del postulante": "U0000014", "id de la vacante": "VACMAR02", "estado": "inscrito" },
+    { "ide del postulante": "U0000015", "id de la vacante": "VACDIS05", "estado": "inscrito" },
+    { "ide del postulante": "U0000002", "id de la vacante": "VACCOM17", "estado": "contratado" },
+    { "ide del postulante": "U0000003", "id de la vacante": "VACMAR13", "estado": "inscrito" },
+    { "ide del postulante": "U0000004", "id de la vacante": "VACFIN15", "estado": "descartado" },
+    { "ide del postulante": "U0000006", "id de la vacante": "VACCOM08", "estado": "inscrito" },
+    { "ide del postulante": "U0000007", "id de la vacante": "VACTEC01", "estado": "descartado" },
+    { "ide del postulante": "U0000008", "id de la vacante": "VACLEG10", "estado": "inscrito" },
+    { "ide del postulante": "U0000009", "id de la vacante": "VACTEC18", "estado": "inscrito" },
+    { "ide del postulante": "U0000011", "id de la vacante": "VACTEC09", "estado": "descartado" },
+    { "ide del postulante": "U0000012", "id de la vacante": "VACRHH04", "estado": "inscrito" },
+    { "ide del postulante": "U0000013", "id de la vacante": "VACDIS20", "estado": "inscrito" },
+    { "ide del postulante": "U0000014", "id de la vacante": "VACLIS06", "estado": "inscrito" },
+    { "ide del postulante": "U0000015", "id de la vacante": "VACTEC07", "estado": "descartado" },
+    { "ide del postulante": "U0000002", "id de la vacante": "VACMAR13", "estado": "inscrito" },
+    { "ide del postulante": "U0000003", "id de la vacante": "VACTEC16", "estado": "contratado" }
+  ],
+  "candidatos": [
+    {
+      "id del usuario": "U0000002",
+      "dirección": "Calle Falsa 123, Madrid",
+      "teléfono": "+34600111222",
+      "experiencia": "5 años en desarrollo web, 2 años en gestión de equipos.",
+      "edad": 30
+    },
+    {
+      "id del usuario": "U0000003",
+      "dirección": "Avenida Siempre Viva 742, Barcelona",
+      "teléfono": "+34600333444",
+      "experiencia": "2 años como desarrolladora Full Stack, conocimientos de metodologías ágiles.",
+      "edad": 25
+    },
+    {
+      "id del usuario": "U0000004",
+      "dirección": "Plaza Mayor s/n, Valencia",
+      "teléfono": "+34600555666",
+      "experiencia": "8 años en marketing digital y SEO, certificación Google Ads.",
+      "edad": 35
+    },
+    {
+      "id del usuario": "U0000006",
+      "dirección": "Ronda de Dalt 45, Sevilla",
+      "teléfono": "+34600777888",
+      "experiencia": "3 años en contabilidad y finanzas, manejo de sistemas ERP.",
+      "edad": 28
+    },
+    {
+      "id del usuario": "U0000007",
+      "dirección": "Calle de la Paz 10, Bilbao",
+      "teléfono": "+34600999000",
+      "experiencia": "6 meses de prácticas en RR.HH., TFG sobre reclutamiento 2.0.",
+      "edad": 23
+    },
+    {
+      "id del usuario": "U0000008",
+      "dirección": "Paseo del Prado 2, Málaga",
+      "teléfono": "+34601111222",
+      "experiencia": "4 años como diseñador UX/UI, especialización en accesibilidad.",
+      "edad": 32
+    },
+    {
+      "id del usuario": "U0000009",
+      "dirección": "Gran Vía 50, Zaragoza",
+      "teléfono": "+34601333444",
+      "experiencia": "10 años en gestión de proyectos TI, Certificación PMP.",
+      "edad": 40
+    },
+    {
+      "id del usuario": "U0000011",
+      "dirección": "Calle del Sol 8, Murcia",
+      "teléfono": "+34601555666",
+      "experiencia": "7 años como DBA, experto en MySQL y PostgreSQL.",
+      "edad": 38
+    },
+    {
+      "id del usuario": "U0000012",
+      "dirección": "Avenida América 1, Alicante",
+      "teléfono": "+34601777888",
+      "experiencia": "1 año como ejecutivo de ventas, bilingüe español-inglés.",
+      "edad": 24
+    },
+    {
+      "id del usuario": "U0000013",
+      "dirección": "Calle Luna 33, Palma",
+      "teléfono": "+34601999000",
+      "experiencia": "3 años en soporte técnico de redes, Certificación Cisco CCNA.",
+      "edad": 29
+    },
+    {
+      "id del usuario": "U0000014",
+      "dirección": "Plaça Catalunya 1, Tarragona",
+      "teléfono": "+34602111222",
+      "experiencia": "6 años en derecho corporativo y fiscal, con experiencia internacional.",
+      "edad": 36
+    },
+    {
+      "id del usuario": "U0000015",
+      "dirección": "Camino de Santiago 5, Salamanca",
+      "teléfono": "+34602333444",
+      "experiencia": "1 año como Data Scientist Jr., proyectos con R y Python.",
+      "edad": 26
+    },
+    {
+      "id del usuario": "U0000005",
+      "dirección": "Calle del Mar 20, Cádiz",
+      "teléfono": "+34602555666",
+      "experiencia": "15 años en gestión de proyectos y dirección de equipos (Rol Admin, incluido como candidato de ejemplo).",
+      "edad": 45
+    },
+    {
+      "id del usuario": "U0000001",
+      "dirección": "Paseo de Gracia 100, Gerona",
+      "teléfono": "+34602777888",
+      "experiencia": "20 años en dirección general (Rol Admin, incluido como candidato de ejemplo).",
+      "edad": 50
+    },
+    {
+      "id del usuario": "U0000010",
+      "dirección": "Avenida Libertad 5, Toledo",
+      "teléfono": "+34602999000",
+      "experiencia": "12 años como CTO y arquitecto de software (Rol Admin, incluido como candidato de ejemplo).",
+      "edad": 42
+    }
+  ]
+}

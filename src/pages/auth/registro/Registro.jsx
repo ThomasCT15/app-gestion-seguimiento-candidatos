@@ -14,7 +14,7 @@ function Registro() {
 
               <div>
                 <label className="block mb-2 text-sm font-medium text-gray-900">
-                  ingresar Nombre
+                  Ingresar Nombre
                 </label>
                 <input
                   placeholder="JohnDoe"
