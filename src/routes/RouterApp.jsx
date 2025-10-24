@@ -1,5 +1,6 @@
 import Login from "../pages/auth/login/Login";
 import Registro from "../pages/auth/registro/Registro";
+import Dashboard from "../pages/dashboard/Dashboard";
 
 export let RouterApp = [
     {
@@ -9,5 +10,9 @@ export let RouterApp = [
     {
         path: "/registro",
         element: <Registro />,
+    },
+    {
+        path: "/dashboard",
+        element: <Dashboard />,
     },
 ];

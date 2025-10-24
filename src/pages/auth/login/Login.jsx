@@ -1,7 +1,24 @@
+import { useState } from "react";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { alertaGeneral, alertaRedireccion } from "../../../helpers/alertas";
+import { generarToken } from "../../../helpers/funciones";
+
+console.log(generarToken())
 
 function Login() {
+  const [usuario, setUsuario] = useState("");
+  const [contrasena, setContrasena] = useState("");
+  let redireccion = useNavigate();
+
+  function iniciarSesion() {
+    if (usuario == "admin" && contrasena == "1234") {
+      alertaRedireccion("Bienvenido", "success", "/dashboard", redireccion);
+    } else {
+      alertaGeneral("Error", "Error de credenciales", "error");
+    }
+  }
+
   return (
     <div className="login-container">
       <form className="w-100">
@@ -20,6 +37,7 @@ function Login() {
                   className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
                   id="username"
                   type="text"
+                  onChange={(e) => setUsuario(e.target.value)}
                 />
               </div>
               <div>
@@ -31,15 +49,19 @@ function Login() {
                   placeholder="••••••••"
                   id="password"
                   type="password"
+                  onChange={(e) => setContrasena(e.target.value)}
                 />
               </div>
               <button
                 className="w-full bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white"
-                type="submit"
+                type="button"
+                onClick={iniciarSesion}
               >
                 Login
               </button>
-              <span><Link to="/registro">¿No tiene una cuenta? ¡Registrese!</Link></span>
+              <span>
+                <Link to="/registro">¿No tiene una cuenta? ¡Registrese!</Link>
+              </span>
             </div>
           </div>
         </div>
