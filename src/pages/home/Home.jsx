@@ -1,4 +1,5 @@
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
             Optimiza tu proceso de reclutamiento con nuestra plataforma integral
           </p>
           <div className="hero-buttons">
-            <button className="btn-primary">Buscar Ofertas</button>
+            <Link className="btn-primary" to= {"/login"}>Iniciar sesión</Link>
             <button className="btn-secondary">Conocer más</button>
           </div>
         </div>

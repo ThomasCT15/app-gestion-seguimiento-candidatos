@@ -2,9 +2,7 @@ import { useState } from "react";
 import "./Login.css";
 import { Link, useNavigate } from "react-router-dom";
 import { alertaGeneral, alertaRedireccion } from "../../../helpers/alertas";
-import { generarToken } from "../../../helpers/funciones";
-
-console.log(generarToken())
+import { generarToken, guardarLocalStorage } from "../../../helpers/funciones";
 
 function Login() {
   const [usuario, setUsuario] = useState("");
@@ -13,6 +11,8 @@ function Login() {
 
   function iniciarSesion() {
     if (usuario == "admin" && contrasena == "1234") {
+      let token = generarToken();
+      guardarLocalStorage("token", token);
       alertaRedireccion("Bienvenido", "success", "/dashboard", redireccion);
     } else {
       alertaGeneral("Error", "Error de credenciales", "error");
