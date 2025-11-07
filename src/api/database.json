@@ -104,6 +104,125 @@
       "correo": "andrea.simon@email.com",
       "id": "U0000015",
       "rol": "candidato"
+    },
+    {
+      "nombre": "Bruno Fernández",
+      "contraseña": "pass12345",
+      "correo": "bruno.f@email.com",
+      "id": "USR000B2",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Carla Díaz",
+      "contraseña": "pass12345",
+      "correo": "carla.diaz@email.com",
+      "id": "USR000C3",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "David Mendoza",
+      "contraseña": "pass12345",
+      "correo": "david.m@email.com",
+      "id": "USR000D4",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Elena Castillo",
+      "contraseña": "pass12345",
+      "correo": "elena.c@email.com",
+      "id": "USR000E5",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Felipe Torres",
+      "contraseña": "pass12345",
+      "correo": "felipe.t@email.com",
+      "id": "USR000F6",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Gabriela Ruiz",
+      "contraseña": "pass12345",
+      "correo": "gabi.ruiz@email.com",
+      "id": "USR000G7",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Hugo Navarro",
+      "contraseña": "pass12345",
+      "correo": "hugo.n@email.com",
+      "id": "USR000H8",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Inés Morales",
+      "contraseña": "pass12345",
+      "correo": "ines.m@email.com",
+      "id": "USR000I9",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Javier Solís",
+      "contraseña": "pass12345",
+      "correo": "javier.s@email.com",
+      "id": "USR000J0",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Karla Ponce",
+      "contraseña": "pass12345",
+      "correo": "karla.p@email.com",
+      "id": "USR000K1",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Luis Vargas",
+      "contraseña": "pass12345",
+      "correo": "luis.v@email.com",
+      "id": "USR000L2",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Marta Herrera",
+      "contraseña": "pass12345",
+      "correo": "marta.h@email.com",
+      "id": "USR000M3",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Nelson Silva",
+      "contraseña": "pass12345",
+      "correo": "nelson.s@email.com",
+      "id": "USR000N4",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Olga Paredes",
+      "contraseña": "pass12345",
+      "correo": "olga.p@email.com",
+      "id": "USR000O5",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Admin General",
+      "contraseña": "adminPass1",
+      "correo": "admin@empresa.com",
+      "id": "ADM100A1",
+      "rol": "admin"
+    },
+    {
+      "nombre": "Reclutador TI",
+      "contraseña": "adminPass2",
+      "correo": "rrhh.ti@empresa.com",
+      "id": "ADM100A2",
+      "rol": "admin"
+    },
+    {
+      "nombre": "Admin Finanzas",
+      "contraseña": "adminPass3",
+      "correo": "finanzas@empresa.com",
+      "id": "ADM100A3",
+      "rol": "admin"
     }
   ],
   "vacantes": [
