@@ -54,7 +54,7 @@ const Header = () => {
         <nav className="header-nav">
           <ul className="nav-list">
             <li className="nav-item">
-              <Link to="" className="nav-link">
+              <Link to="/dashboard" className="nav-link">
                 <svg
                   className="nav-icon"
                   width="20"
@@ -74,7 +74,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="" className="nav-link">
+              <Link to="/vacantes" className="nav-link">
                 <svg
                   className="nav-icon"
                   width="20"
@@ -101,7 +101,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="" className="nav-link">
+              <Link to="/candidatos" className="nav-link">
                 <svg
                   className="nav-icon"
                   width="20"
@@ -128,7 +128,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="" className="nav-link">
+              <Link to="/postulaciones" className="nav-link">
                 <svg
                   className="nav-icon"
                   width="20"
